@@ -1,0 +1,21 @@
+Omniauth with Devise Example
+=======
+
+This is an example of a Rails 3.1 application using the built in Omniauth with Devise
+
+Currently using Facebook with Omniauth
+
+
+Installation
+------------
+    # Install the app
+    $ bundle install
+    $ rake db:migrate
+
+Roadmap
+-------
+Add Facebook Integration
+Add Twitter Integration
+Add LinkedIn Integration
+
+Add Rspec testing with Omniauth
