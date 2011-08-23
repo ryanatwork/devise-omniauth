@@ -15,6 +15,7 @@ ActiveRecord::Schema.define(:version => 20110823042026) do
 
   create_table "authentications", :force => true do |t|
     t.integer  "user_id"
+    t.string   "uid"
     t.string   "provider"
     t.string   "access_token"
     t.string   "access_secret"
